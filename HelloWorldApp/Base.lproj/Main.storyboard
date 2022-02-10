@@ -34,6 +34,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Show Text">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bU-s1-xgQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,6 +49,10 @@
                             <constraint firstItem="LSb-Gc-udo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gol-Sd-d5C"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="SNf-MC-N0x" id="tK7-vd-FnL"/>
+                        <outlet property="showTextButton" destination="LSb-Gc-udo" id="M1w-XL-GE9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
